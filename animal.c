@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main() {
+int main(void) {
     char animal[16] = "";
    
     printf("what is the best animal?");
@@ -12,5 +12,5 @@ void main() {
         printf("Wrong, it's F I S H!");
     }    
 
-    return;
+    return 0;
 }
